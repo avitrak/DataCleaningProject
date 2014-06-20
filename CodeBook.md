@@ -29,7 +29,7 @@ The following steps were performed by the "run_analysis.R" script on the raw dat
 The resulting variable (column) names are as follows:
 (Note:"XYZ" is used to denote 3-axial signals in the X, Y and Z directions, prefix "t" to denotes time and prefix "f" indicates frequency domain signals)
 
-Subject
+Subject<br />
 Activity
 tobacco_mearn_X
 tobacco_mean_Y
