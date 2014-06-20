@@ -26,74 +26,74 @@ The following steps were performed by the "run_analysis.R" script on the raw dat
 - Using the "aggregate" function, the second data set was extracted. This set contains the average of each variable from the step above, for each activity and each subject (i.e. has a row for each subject/activity pair).
 - Finally, the activity IDs were converted to activity names and the variable names cleaned up to remove special characters.
 
-The resulting variable (column) names are as follows:
+The resulting variable (column) names are as follows:<br />
 (Note:"XYZ" is used to denote 3-axial signals in the X, Y and Z directions, prefix "t" to denotes time and prefix "f" indicates frequency domain signals)
 
 Subject<br />
-Activity
-tobacco_mearn_X
-tobacco_mean_Y
-tBodyAcc_mean_Z
-tBodyAcc_std_X
-tBodyAcc_std_Y
-tBodyAcc_std_Z
-tGravityAcc_mean_X
-tGravityAcc_mean_Y
-tGravityAcc_mean_Z
-tGravityAcc_std_X
-tGravityAcc_std_Y
-tGravityAcc_std_Z
-tBodyAccJerk_mean_X
-tBodyAccJerk_mean_Y
-tBodyAccJerk_mean_Z
-tBodyAccJerk_std_X
-tBodyAccJerk_std_Y
-tBodyAccJerk_std_Z
-tBodyGyro_mean_X
-tBodyGyro_mean_Y
-tBodyGyro_mean_Z
-tBodyGyro_std_X
-tBodyGyro_std_Y
-tBodyGyro_std_Z
-tBodyGyroJerk_mean_X
-tBodyGyroJerk_mean_Y
-tBodyGyroJerk_mean_Z
-tBodyGyroJerk_std_X
-tBodyGyroJerk_std_Y
-tBodyGyroJerk_std_Z
-tBodyAccMag_mean
-tBodyAccMag_std
-tGravityAccMag_mean
-tGravityAccMag_std
-tBodyAccJerkMag_mean
-tBodyAccJerkMag_std
-tBodyGyroMag_mean
-tBodyGyroMag_std
-tBodyGyroJerkMag_mean
-tBodyGyroJerkMag_std
-fBodyAcc_mean_X
-fBodyAcc_mean_Y
-fBodyAcc_mean_Z
-fBodyAcc_std_X
-fBodyAcc_std_Y
-fBodyAcc_std_Z
-fBodyAccJerk_mean_X
-fBodyAccJerk_mean_Y
-fBodyAccJerk_mean_Z
-fBodyAccJerk_std_X
-fBodyAccJerk_std_Y
-fBodyAccJerk_std_Z
-fBodyGyro_mean_X
-fBodyGyro_mean_Y
-fBodyGyro_mean_Z
-fBodyGyro_std_X
-fBodyGyro_std_Y
-fBodyGyro_std_Z
-fBodyAccMag_mean
-fBodyAccMag_std
-fBodyBodyAccJerkMag_mean
-fBodyBodyAccJerkMag_std
-fBodyBodyGyroMag_mean
-fBodyBodyGyroMag_std
-fBodyBodyGyroJerkMag_mean
+Activity<br />
+tobacco_mearn_X<br />
+tobacco_mean_Y<br />
+tBodyAcc_mean_Z<br />
+tBodyAcc_std_X<br />
+tBodyAcc_std_Y<br />
+tBodyAcc_std_Z<br />
+tGravityAcc_mean_X<br />
+tGravityAcc_mean_Y<br />
+tGravityAcc_mean_Z<br />
+tGravityAcc_std_X<br />
+tGravityAcc_std_Y<br />
+tGravityAcc_std_Z<br />
+tBodyAccJerk_mean_X<br />
+tBodyAccJerk_mean_Y<br />
+tBodyAccJerk_mean_Z<br />
+tBodyAccJerk_std_X<br />
+tBodyAccJerk_std_Y<br />
+tBodyAccJerk_std_Z<br />
+tBodyGyro_mean_X<br />
+tBodyGyro_mean_Y<br />
+tBodyGyro_mean_Z<br />
+tBodyGyro_std_X<br />
+tBodyGyro_std_Y<br />
+tBodyGyro_std_Z<br />
+tBodyGyroJerk_mean_X<br />
+tBodyGyroJerk_mean_Y<br />
+tBodyGyroJerk_mean_Z<br />
+tBodyGyroJerk_std_X<br />
+tBodyGyroJerk_std_Y<br />
+tBodyGyroJerk_std_Z<br />
+tBodyAccMag_mean<br />
+tBodyAccMag_std<br />
+tGravityAccMag_mean<br />
+tGravityAccMag_std<br />
+tBodyAccJerkMag_mean<br />
+tBodyAccJerkMag_std<br />
+tBodyGyroMag_mean<br />
+tBodyGyroMag_std<br />
+tBodyGyroJerkMag_mean<br />
+tBodyGyroJerkMag_std<br />
+fBodyAcc_mean_X<br />
+fBodyAcc_mean_Y<br />
+fBodyAcc_mean_Z<br />
+fBodyAcc_std_X<br />
+fBodyAcc_std_Y<br />
+fBodyAcc_std_Z<br />
+fBodyAccJerk_mean_X<br />
+fBodyAccJerk_mean_Y<br />
+fBodyAccJerk_mean_Z<br />
+fBodyAccJerk_std_X<br />
+fBodyAccJerk_std_Y<br />
+fBodyAccJerk_std_Z<br />
+fBodyGyro_mean_X<br />
+fBodyGyro_mean_Y<br />
+fBodyGyro_mean_Z<br />
+fBodyGyro_std_X<br />
+fBodyGyro_std_Y<br />
+fBodyGyro_std_Z<br />
+fBodyAccMag_mean<br />
+fBodyAccMag_std<br />
+fBodyBodyAccJerkMag_mean<br />
+fBodyBodyAccJerkMag_std<br />
+fBodyBodyGyroMag_mean<br />
+fBodyBodyGyroMag_std<br />
+fBodyBodyGyroJerkMag_mean<br />
 fBodyBodyGyroJerkMag_std
